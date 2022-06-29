@@ -5,4 +5,4 @@ Password will contain:
 - Lower case letters(at least one)
 - Numbers(at least one)
 
-You can pic any size of your password.
+You can pick any size of your password.
