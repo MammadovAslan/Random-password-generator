@@ -9,6 +9,10 @@ function getRandomPassword(){
     let password = []
     if(n>20){
         password.push('Too long password(max length - 20)')
+    }else if(n == NaN || n == ''){
+        password.push('Enter password\'s length')
+    }else if(n ==0){
+        password.push('Invalid password\'s length')
     }else{
         for(let i = 0;i<n;i++){
         password.push(alph[Math.floor(Math.random()*(alph.length-1))])
